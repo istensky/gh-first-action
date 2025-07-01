@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello irina"
-      - name: Grint goodby
+      - name: Print goodby
         run: echo "I am done buy"
         
