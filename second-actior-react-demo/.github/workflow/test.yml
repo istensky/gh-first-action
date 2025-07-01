@@ -1,14 +1,8 @@
 name: Test Project
-on: 
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: push
 jobs:
   test:
-    runs-on: mac-latest
+    runs-on: ubuntu-latest
     steps:  Get code
       - name: Checkout code
         uses: actions/checkout@v3
